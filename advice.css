@@ -24,6 +24,11 @@ main{
 	box-shadow: 0 3px 8px rgb(0 0 0 / 24%);
 
 }
+@media (max-width: 375px){
+	main{
+		width: 80%;
+	}
+}
 #advice-id{
 	display: flex;
 	flex-direction: column;
@@ -32,13 +37,15 @@ main{
 }
 
 h1{
-	font-size: 16px;
+	font-size: 12px;
 	margin-top: 1.5rem;
 	color: hsl(150, 100%, 66%);
+	word-spacing: 5px;
+	letter-spacing: 5px;
 }
 
 p{
-	font-size: 24px;
+	font-size: 22px;
 	color: #C8DDE4;
 }
 
@@ -73,6 +80,6 @@ button > img{
 .attribution{
 	width: 100%;
 	position: fixed;
-	bottom: 1px;
+	bottom: 7px;
 	text-align: center;
 }
