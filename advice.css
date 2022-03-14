@@ -42,11 +42,13 @@ h1{
 	color: hsl(150, 100%, 66%);
 	word-spacing: 5px;
 	letter-spacing: 5px;
+	text-align: center;
 }
 
 p{
 	font-size: 22px;
 	color: #C8DDE4;
+	text-align: center;
 }
 
 #v-bar{
