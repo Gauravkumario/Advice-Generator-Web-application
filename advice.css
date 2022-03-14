@@ -84,4 +84,5 @@ button > img{
 	position: fixed;
 	bottom: 7px;
 	text-align: center;
+	text-decoration: none;
 }
