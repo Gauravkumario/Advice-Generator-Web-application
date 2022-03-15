@@ -37,11 +37,11 @@ main{
 }
 
 h1{
-	font-size: 12px;
+	font-size: 14px;
 	margin-top: 1.5rem;
 	color: hsl(150, 100%, 66%);
 	word-spacing: 5px;
-	letter-spacing: 5px;
+	letter-spacing: 3px;
 	text-align: center;
 }
 
@@ -49,6 +49,7 @@ p{
 	font-size: 22px;
 	color: #C8DDE4;
 	text-align: center;
+	margin: 0 2rem;
 }
 
 #v-bar{
